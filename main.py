@@ -10,15 +10,22 @@ def read_file(file_path):
     
     return content
 
-
-print(read_file('example.txt'))  # Replace 'example.txt' with your file path
 def write_file(file_path, content):
     """Writes the given content to a file."""
     with open(file_path, 'w') as file:
         file.write(content)
-    print(f"Content written to {file_path}.")
-write_file('output.txt', 'Hello, World!')  # Replace 'output.txt' with your desired file path
-# The above code defines two functions: read_file and write_file.
-# read_file reads the content of a specified file and returns it as a string.
-# write_file writes the given content to a specified file.
-# Example usage of the functions is also provided.
+
+if __name__ == "__main__":
+    # Example usage
+    file_path = 'example.txt'
+    
+    # Write to the file
+    write_file(file_path, "Hello, World!")
+    
+    # Read from the file
+    content = read_file(file_path)
+    print(content)  # Output: Hello, World!
+# main.py
+# This module provides basic file operations: reading from and writing to files.
+# It includes functions to read the content of a file and write content to a file.
+# The module also contains an example usage in the main block.

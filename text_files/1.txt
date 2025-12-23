@@ -7,3 +7,6 @@ i am changed now
 i love you jai 
 
 UI
+
+
+Area of rectangle

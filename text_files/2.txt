@@ -1,1 +1,4 @@
 Hello Omkar this is 2.txt
+
+
+Area of rectangle

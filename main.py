@@ -54,3 +54,11 @@ if __name__ == "__main__":
     # Read from the file
     content = read_file(file_path)
     print(content)  # Output: Hello, World!
+
+
+
+    adnd write content to a file.
+# It includes functions to read the content of a file and write content to a file.
+# The module also contains an example usage in the main block.
+
+import os
